@@ -1,0 +1,54 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+select {
+  outline: 0;
+  width: 6rem;
+  padding: 0.5rem;
+  border-radius: 6px;
+  margin: 1rem;
+  border: none;
+  border: 1px solid dodgerblue;
+}
+
+select:focus,
+select:hover {
+  box-shadow: 0 0 3px 4px rgb(135, 190, 244);
+  transition: all 0.2s;
+}
+
+table,
+th,
+td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+
+table {
+  width: 22rem;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 0.3rem;
+  cursor: pointer;
+}
+
+td:hover {
+  transform: scale(0.9);
+  transition: transform 0.2s ease-in-out;
+}
+.empty {
+  margin: 1rem;
+  font-size: medium;
+  column-span: 3;
+}
